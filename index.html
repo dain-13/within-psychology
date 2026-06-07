@@ -1,0 +1,172 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>위드인 심리상담연구소</title>
+  <meta name="description" content="수원 광교 위드인 심리상담연구소. 전문 상담, 심리검사, 교육, 비대면 상담을 예약제로 운영합니다." />
+  <meta property="og:title" content="위드인 심리상담연구소" />
+  <meta property="og:description" content="내면을 탐색하고 자아를 발견하는 여정에 함께합니다." />
+  <meta property="og:image" content="assets/logos/logo-square-green-bg.jpg" />
+  <link rel="icon" href="assets/favicon.png" />
+  <link rel="stylesheet" href="styles.css" />
+  <script src="data.js" defer></script>
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <a class="skip" href="#main">본문 바로가기</a>
+
+  <header class="site-header" id="top">
+    <div class="container nav-wrap">
+      <a class="brand" href="#top" aria-label="위드인 심리상담연구소 홈">
+        <img src="assets/logos/logo-wide-green-bg.jpg" alt="위드인 심리상담연구소" />
+      </a>
+      <button class="nav-toggle" type="button" aria-label="메뉴 열기" aria-expanded="false">☰</button>
+      <nav class="nav" aria-label="주요 메뉴">
+        <a href="#about">소개</a>
+        <a href="#services">상담분야</a>
+        <a href="#tests">심리검사</a>
+        <a href="#counselors">상담사</a>
+        <a href="#location">오시는 길</a>
+        <a class="nav-cta" href="tel:031-212-0122">상담 예약</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="hero section-soft">
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <p class="eyebrow">수원 광교 · 전문 심리상담 및 심리검사</p>
+          <h1>마음을 마주하는 시간,<br />위드인이 함께합니다.</h1>
+          <p class="hero-text">위드인 심리상담연구소는 심리학 교수, 석박사, 국가 및 학회 공인 자격을 갖춘 전문가들이 운영하는 상담·심리검사·교육 기관입니다.</p>
+          <div class="hero-actions">
+            <a class="button primary" href="tel:031-212-0122">전화 예약 031-212-0122</a>
+            <a class="button ghost" href="#services">상담분야 보기</a>
+          </div>
+        </div>
+        <div class="hero-card" aria-label="위드인 의미">
+          <img src="assets/logos/logo-square-white-bg.jpg" alt="위드인 심리상담연구소 로고" />
+          <p><strong>within</strong>은 ‘안에서, 내면에서’라는 뜻을 담고 있습니다. 내담자분들의 내면에서 새로운 이해와 성장의 힘을 찾는 시간을 지향합니다.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="trust-bar" aria-label="운영 안내">
+      <div class="container trust-grid">
+        <div><strong>전문가 운영</strong><span>심리학 교수·석박사 상담진</span></div>
+        <div><strong>예약제 상담</strong><span>전화·네이버·카카오 예약</span></div>
+        <div><strong>비대면 가능</strong><span>전화 및 화상 상담</span></div>
+      </div>
+    </section>
+
+    <section class="section" id="about">
+      <div class="container two-col">
+        <div>
+          <p class="eyebrow">About Within</p>
+          <h2>위드인 심리상담연구소를 소개합니다</h2>
+        </div>
+        <div class="content-card prose">
+          <p>위드인 심리상담연구소는 정신건강 임상심리사, 청소년 상담사 등 국가 공인 자격과 범죄심리전문가, 중독심리전문가 등 한국심리학회 공인 자격을 갖춘 전문가들이 함께합니다.</p>
+          <p><strong>within</strong>은 ‘안에, 내부에서’라는 의미를 가지고 있습니다. 위드인은 내담자분들이 자신의 내면을 탐색하고 자아를 발견하는 여정에 함께하고자 합니다.</p>
+          <p>로고는 within의 첫 글자인 W를 바탕으로, 두 사람이 서로 마주 보고 마음을 나누는 모습을 형상화했습니다.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-tint" id="services">
+      <div class="container">
+        <div class="section-head">
+          <p class="eyebrow">Counseling Areas</p>
+          <h2>상담분야 안내</h2>
+          <p>모든 상담은 예약제로 운영되며, 당일 상담을 원하시는 경우 상담소로 전화해 주세요.</p>
+        </div>
+        <div class="card-grid" id="servicesGrid"></div>
+      </div>
+    </section>
+
+    <section class="section" id="tests">
+      <div class="container split-panel">
+        <div>
+          <p class="eyebrow">Psychological Assessment</p>
+          <h2>심리검사 안내</h2>
+          <p class="muted">상담 목적과 현재 어려움에 따라 필요한 검사를 안내하고, 결과를 바탕으로 이해와 개입 방향을 함께 정리합니다.</p>
+          <a class="text-link" id="testGuideLink" href="#" target="_blank" rel="noopener">심리검사 안내 자세히 보기 →</a>
+        </div>
+        <ul class="check-list" id="testsList"></ul>
+      </div>
+    </section>
+
+    <section class="section section-soft" id="counselors">
+      <div class="container">
+        <div class="section-head">
+          <p class="eyebrow">Counselors</p>
+          <h2>상담사 안내</h2>
+          <p>각 상담사 카드의 사진은 <code>assets/counselors</code> 폴더에 이미지를 넣고 <code>data.js</code>에서 경로만 바꾸면 됩니다.</p>
+        </div>
+        <div class="counselor-grid" id="counselorGrid"></div>
+      </div>
+    </section>
+
+    <section class="section" id="reservation">
+      <div class="container reservation-card">
+        <div>
+          <p class="eyebrow">Reservation</p>
+          <h2>상담 예약은 편한 방법으로 문의해 주세요</h2>
+          <p>전화, 네이버 예약, 카카오 채널을 통해 예약 가능합니다. 전화 및 화상 상담도 가능합니다.</p>
+        </div>
+        <div class="reservation-actions">
+          <a class="button primary" href="tel:031-212-0122">전화하기</a>
+          <a class="button ghost" id="blogLink" href="#" target="_blank" rel="noopener">블로그 보기</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-tint" id="location">
+      <div class="container location-grid">
+        <div>
+          <p class="eyebrow">Location</p>
+          <h2>찾아오시는 길</h2>
+          <p class="address" id="addressText"></p>
+          <div class="route-list">
+            <article>
+              <h3>대중교통 이용 시</h3>
+              <p><strong>지하철</strong> 신분당선 광교중앙역 3번 출구에서 도보 약 5분. 아브뉴프랑 광교점을 지나 광교 푸르지오 월드마크 상가 8번 엘리베이터를 이용해 2층 1호로 오시면 됩니다.</p>
+              <p><strong>버스</strong> “푸르지오월드마크, 차세대융합기술연구원” 정류장 하차 후 쇼핑몰 입구로 들어와 7번 엘리베이터를 이용하면 됩니다.</p>
+            </article>
+            <article>
+              <h3>자차 이용 시</h3>
+              <p>건물 내 상가 주차장 B1, B3 이용이 가능하며, 최대 2시간 주차권 발급이 가능합니다.</p>
+            </article>
+          </div>
+          <a class="button primary" id="mapLink" href="#" target="_blank" rel="noopener">지도에서 보기</a>
+        </div>
+        <div class="map-placeholder" aria-label="지도 영역">
+          <span>WITHIN</span>
+          <strong>광교푸르지오 월드마크<br />월드스퀘어 2층 1호</strong>
+          <p>지도 임베드 없이도 유지보수가 적도록 지도 링크 버튼을 사용합니다.</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div>
+        <img src="assets/logos/logo-wide-green-bg.jpg" alt="위드인 심리상담연구소" />
+        <p>내면을 탐색하고 자아를 발견하는 여정에 함께합니다.</p>
+      </div>
+      <div>
+        <strong>문의</strong>
+        <p><a href="tel:031-212-0122">031-212-0122</a></p>
+        <p id="footerAddress"></p>
+      </div>
+      <div>
+        <strong>바로가기</strong>
+        <p><a id="footerBlog" href="#" target="_blank" rel="noopener">네이버 블로그</a></p>
+        <p><a href="#top">맨 위로</a></p>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
