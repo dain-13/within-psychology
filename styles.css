@@ -80,7 +80,7 @@ h3 { font-size: 21px; }
 .prose p { margin: 0 0 18px; }
 .prose p:last-child { margin-bottom: 0; }
 
-.section-head { max-width: 760px; margin-bottom: 34px; }
+.section-head { max-width: 760px; margin-bottom: 56px; }
 .section-head p:last-child { margin-top: 14px; }
 .card-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 18px; }
 .service-card { background: #fff; border: 1px solid var(--line); border-radius: 22px; padding: 24px; min-height: 220px; transition: transform .2s ease, box-shadow .2s ease; }
@@ -96,7 +96,12 @@ h3 { font-size: 21px; }
 .check-list li { background: rgba(255,255,255,.12); border: 1px solid rgba(255,255,255,.18); border-radius: 16px; padding: 14px 16px; font-weight: 800; }
 .check-list li::before { content: '✓'; margin-right: 10px; }
 
-.counselor-grid { display: grid; grid-template-columns: repeat(5, 1fr); gap: 28px; }
+.counselor-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    gap: 32px;
+    width: 100%;
+}
 .counselor-card { background: #fff; border: 1px solid var(--line); border-radius: 24px; overflow: hidden; box-shadow: 0 14px 40px rgba(6,77,42,.08); }
 .counselor-top{
     padding:26px;
