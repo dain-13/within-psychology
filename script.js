@@ -24,7 +24,6 @@ function renderCounselors() {
   grid.innerHTML = counselors.map((person) => `
     <article class="counselor-card">
       <div class="counselor-top">
-        <img src="${person.image}" alt="${person.name} ${person.role} 사진" loading="lazy" />
         <div>
           <h3>${person.name}</h3>
           <p class="role">${person.role}</p>
