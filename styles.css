@@ -96,7 +96,7 @@ h3 { font-size: 21px; }
 .check-list li { background: rgba(255,255,255,.12); border: 1px solid rgba(255,255,255,.18); border-radius: 16px; padding: 14px 16px; font-weight: 800; }
 .check-list li::before { content: '✓'; margin-right: 10px; }
 
-.counselor-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 22px; }
+.counselor-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 22px; }
 .counselor-card { background: #fff; border: 1px solid var(--line); border-radius: 26px; overflow: hidden; box-shadow: 0 14px 40px rgba(6,77,42,.08); }
 .counselor-top { display: grid; grid-template-columns: 160px 1fr; gap: 22px; padding: 22px; align-items: center; }
 .counselor-top img { width: 160px; height: 190px; object-fit: cover; border-radius: 20px; border: 1px solid var(--line); }
