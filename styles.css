@@ -102,7 +102,7 @@ h3 { font-size: 21px; }
     gap: 32px;
     width: 100%;
 }
-.counselor-card { background: #fff; border: 1px solid var(--line); border-radius: 24px; overflow: hidden; box-shadow: 0 14px 40px rgba(6,77,42,.08); }
+.counselor-card { background: #fff; border: 1px solid var(--line); border-radius: 24px; overflow: hidden; box-shadow: 0 14px 40px rgba(6,77,42,.08); width:100%; }
 .counselor-top{
     padding:26px;
 }
@@ -115,7 +115,7 @@ h3 { font-size: 21px; }
 .role{
     font-size:18px;
 }
-.counselor-body { border-top: 1px solid var(--line); padding: 22px; display: grid; gap: 16px; }
+.counselor-body { border-top: 1px solid var(--line); padding: 26px; display: grid; gap: 16px; }
 details { background: #f7fbf8; border-radius: 16px; padding: 12px 14px; }
 summary { cursor: pointer; font-weight: 900; color: var(--green-dark); }
 details ul { margin: 10px 0 0; padding-left: 18px; color: #435349; }
