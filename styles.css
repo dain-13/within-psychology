@@ -51,7 +51,7 @@ img { max-width: 100%; display: block; }
 .section-tint { background: #f6fbf8; }
 .eyebrow { margin: 0 0 12px; color: var(--green); font-weight: 900; letter-spacing: .05em; text-transform: uppercase; font-size: 13px; }
 h1, h2, h3 { margin: 0; line-height: 1.25; letter-spacing: -.04em; }
-h1 { font-size: clamp(30px, 4vw, 52px); color: var(--green-dark); }
+h1 { font-size: clamp(30px, 4vw, 48px); color: var(--green-dark); }
 h2 { font-size: clamp(30px, 4vw, 46px); }
 h3 { font-size: 21px; }
 .muted, .section-head p, .hero-text { color: var(--muted); }
