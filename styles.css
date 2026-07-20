@@ -154,11 +154,8 @@ code { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; ba
   .counselor-top img { width: 100%; height: auto; max-height: 360px; }
 }
 
-.location-image{
-    border:3px solid red;
-}
 
 .location-image img{
     width:100%;
-    border:3px solid blue;
+    border:3px solid green;
 }
